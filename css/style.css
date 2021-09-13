@@ -2,6 +2,9 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.body{
+  background-color: rgb(245, 252, 252);
+}
 #dream{
   font-size: 40px;
 }
@@ -29,7 +32,7 @@ body {
   margin-left: 20px;
 }
 .bg-color{
-  background-color: beige;
+  background-color: rgba(209, 209, 204, 0.596);
 }
 #all-products {
   display: grid;
@@ -42,6 +45,7 @@ body {
   justify-content: center;
 }
 .single-product {
+  height:400px;
   margin: 10px;
   padding: 10px;
   transition: 0.6s;
@@ -49,11 +53,14 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(17, 15, 20);
 }
 .product-image {
   width: 150px;
   height: 150px;
+}
+.title-color{
+  color: rgb(71, 71, 71);
 }
 .cart {
   width: 350px;
@@ -63,6 +70,7 @@ body {
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+  background-color: rgb(247, 248, 240);
 }
 .cart-main {
   padding-right: 30px;
